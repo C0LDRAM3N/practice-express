@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("http://localhost:3000/images/apex.png");
+  background-repeat: no-repeat;
+}
+
+a {
+  color: #00B7FF;
+}
+
+image {
+  width: fit-content;
+  height: fit-content;
+}
+
+.slideone {
+  color: aliceblue;
+  position: relative;
+  left: 625px;
+  top: 11px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+}
+
+.slidetwo {
+  color: aliceblue;
+  position: relative;
+  left: 1065px;
+  top: -37px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+}
+
+.slidethree {
+  color: aliceblue;
+  position: relative;
+  left: 1425px;
+  top: -85px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+}
