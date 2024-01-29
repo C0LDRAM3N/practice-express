@@ -1,21 +1,21 @@
 // Define the API URL
 // const apiUrl = 'https://api.example.com/data';
-const apiUrl = "https://dgs-grace-prd.apexlegendsstatus.com/scores?token=7e047d8b52844a926ab452e345bd9433781cb53ae3dd8dc8a03b360ef4ba15c1&rankBy=PAST_GAMES_ONLY";
+// const apiUrl = "https://dgs-grace-prd.apexlegendsstatus.com/scores?token=7e047d8b52844a926ab452e345bd9433781cb53ae3dd8dc8a03b360ef4ba15c1&rankBy=PAST_GAMES_ONLY";
 
-// Make a GET request
-fetch(apiUrl)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
+// // Make a GET request
+// fetch(apiUrl)
+//   .then(response => {
+//     if (!response.ok) {
+//       throw new Error('Network response was not ok');
+//     }
+//     return response.json();
+//   })
+//   .then(data => {
+//     console.log(data);
+//   })
+//   .catch(error => {
+//     console.error('Error:', error);
+//   });
 
 
 var createError = require('http-errors');
